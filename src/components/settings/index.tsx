@@ -18,7 +18,6 @@ const Settings = (props: Props) => {
     <div className="absolute z-40 w-full h-full bg-white/80 backdrop-blur ">
       <Header {...props} />
       <Main />
-      <Footer />
     </div>
   )
 }
@@ -120,13 +119,5 @@ const Main = () => {
         </div>
       </div>
     </main>
-  )
-}
-
-const Footer = () => {
-  return (
-    <footer className="absolute py-4 bg-[#413D43] text-center text-white font-Montserrat bottom-0 w-full">
-      powered by ChatVRM from Pixiv. version 2.20.0
-    </footer>
   )
 }
