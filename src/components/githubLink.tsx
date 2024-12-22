@@ -1,3 +1,3 @@
 export const GitHubLink = () => {
-  return null; // 何もレンダリングしない
-};
+  return null // 何もレンダリングしない
+}
